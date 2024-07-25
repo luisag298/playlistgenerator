@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* COLORS TO USE IN THE PROJECT
+   B8D9BA
+   E1F2D5
+   A4BF88
+   F2F2F2 */
+.header{
+    background-color: #80BF96;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.header h1{
+    margin: 10;
+    font-size: 50px;
+    
+}
+#input-section{
+    padding: 10px 0;
+    text-align: center;
+}
+#artistOption{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: grid;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+input[type="number"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+}
